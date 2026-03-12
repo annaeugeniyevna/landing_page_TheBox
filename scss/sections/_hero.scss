@@ -1,0 +1,78 @@
+.hero {
+    background-image: url('../../images/hero.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+
+    margin: 24px 0 24px 0;
+}
+
+.hero__title {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 43px;
+    color: $color-neurtal-800;
+    line-height: 1.2;
+
+    padding: 50px 0 132px 0;
+}
+
+.hero__slider {
+    text-align: center;
+    background-color: $primary-color;
+
+    max-width: 250px;
+    padding-top: 16px;
+}
+
+.hero__slider-label {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: $color-white;
+
+    margin-bottom: 16px;
+}
+
+.hero__slider-text {
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.1;
+    color: $color-white;
+
+    margin-bottom: 16px;
+}
+
+.hero__slider-controls {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: $color-neurtal-200;
+}
+
+.btn-prev,
+.btn-next {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: $color-white;
+    background-color: $color-neurtal-800;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 4px 38px;
+}
+
+.btn-prev-arrow,
+.btn-next-arrow {
+    max-width: 17px;
+}
+
+.btn-next-arrow {
+    transform: rotate(180deg);
+}
