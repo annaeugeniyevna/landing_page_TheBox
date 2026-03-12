@@ -66,6 +66,13 @@ table {
   margin: 0 auto;
 }
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .nav__bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,7 +128,7 @@ table {
   top: 60px;
   right: 0;
   width: 150px;
-  height: 300px;
+  height: 150px;
   background-color: #E0E3EB;
   border-radius: 8px;
   text-align: center;
@@ -142,7 +149,7 @@ table {
 }
 
 .nav__item {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .nav__link {
@@ -167,7 +174,7 @@ table {
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
-  margin: 24px 0 24px 0;
+  margin: 24px 0 48px 0;
 }
 
 .hero__title {
@@ -239,4 +246,107 @@ table {
 .btn-next-arrow {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.reputation {
+  margin-bottom: 68px;
+}
+
+.reputation__title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  color: #292E3D;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reputation__card-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+
+.reputation__card {
+  border: 1px solid #E0E3EB;
+  border-radius: 2px;
+  max-width: 230px;
+  padding: 16px;
+}
+
+.reputation__icon {
+  max-width: 33px;
+  margin-bottom: 16px;
+}
+
+.reputation__card-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #3D445C;
+  margin-bottom: 16px;
+}
+
+.reputation__card-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.2;
+  color: #858EAD;
+  max-width: 190px;
+  margin-bottom: 20px;
+}
+
+.about {
+  margin-bottom: 52px;
+}
+
+.about__image {
+  max-width: 100%;
+  height: auto;
+}
+
+.about__content {
+  background-color: #2947A9;
+  border-radius: 1px;
+  max-width: 290px;
+  padding: 40px 28px 48px;
+}
+
+.about__title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.about__text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  max-width: 240px;
+  margin-bottom: 16px;
+}
+
+.about__text:last-of-type {
+  margin-bottom: 52px;
+}
+
+.about__btn {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #2947A9;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 10px 16px;
 }
