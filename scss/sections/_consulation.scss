@@ -1,0 +1,48 @@
+.consulation {
+    background-image: url('../../images/consulation-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+
+    padding: 52px 0;
+    margin: 40px 0;
+}
+
+.consulation__title {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: $color-white;
+
+    margin-bottom: 24px;
+}
+
+.consulation__text-wrap {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    margin-bottom: 76px;
+}
+
+.consulation__text, 
+.consulation__phone {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: $color-white;
+}
+
+.consulation__btn {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: $color-white;
+    text-decoration: none;
+    border: 2px solid $color-white;
+    border-radius: 2px;
+
+    padding: 12px 20px;
+}
