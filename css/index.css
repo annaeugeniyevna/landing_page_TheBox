@@ -353,7 +353,7 @@ table {
 
 .services {
   background-color: #F6F8F7;
-  padding: 40px 0 52px 0;
+  padding: 40px 0 32px 0;
 }
 
 .services__title {
@@ -402,4 +402,91 @@ table {
   max-width: 50px;
   height: 2px;
   margin: 16px auto;
+}
+
+.experience {
+  margin: 52px 0;
+}
+
+.experience__card {
+  position: relative;
+  width: 100%;
+  max-width: 210px;
+  -webkit-box-shadow: 0 12px 16px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 12px 16px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  padding: 16px 0 24px 24px;
+  margin-bottom: 25px;
+}
+
+.experience__card:last-child {
+  margin-bottom: 52px;
+}
+
+.experience__icon {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  width: 100%;
+  max-width: 55px;
+}
+
+.experience__card-number {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  color: #292E3D;
+}
+
+.experience__label-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.experience__card-line {
+  display: block;
+  width: 4px;
+  height: 17px;
+  background-color: #F9995D;
+}
+
+.experience__card-label {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  color: #667299;
+}
+
+.experience__title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2947A9;
+  margin-bottom: 28px;
+}
+
+.experience__text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #525B7A;
+  margin-bottom: 48px;
+}
+
+.experience__btn {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #2947A9;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 12px 32px;
 }
