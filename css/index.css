@@ -91,6 +91,7 @@ table {
       -ms-flex-align: center;
           align-items: center;
   gap: 5px;
+  text-decoration: none;
 }
 
 .nav__logo {
@@ -99,7 +100,7 @@ table {
 
 .logo__text {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 23px;
   color: #2947A9;
 }
@@ -166,6 +167,128 @@ table {
   font-size: 15px;
   color: #F9995D;
   text-decoration: none;
+}
+
+.footer {
+  margin-top: 44px;
+}
+
+.footer__row {
+  margin-bottom: 44px;
+}
+
+.footer__info {
+  margin-bottom: 40px;
+}
+
+.footer__contact-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.footer__contact-item:last-child {
+  margin-bottom: 32px;
+}
+
+.footer__contact-label,
+.footer__newsletter-label,
+.footer__social-label {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #2947A9;
+}
+
+.footer__contact-address,
+.footer__contact-link {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #292E3D;
+  text-decoration: none;
+}
+
+.footer__newsletter {
+  margin-bottom: 32px;
+}
+
+.footer__newsletter-label {
+  margin-bottom: 12px;
+}
+
+.footer__newsletter-input {
+  border: 1px solid #E0E3EB;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 200px;
+  padding: 4px;
+}
+
+.footer__newsletter-input::-webkit-input-placeholder {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #A3AAC2;
+}
+
+.footer__newsletter-input:-ms-input-placeholder {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #A3AAC2;
+}
+
+.footer__newsletter-input::-ms-input-placeholder {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #A3AAC2;
+}
+
+.footer__newsletter-input::placeholder {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #A3AAC2;
+}
+
+.footer__newsletter-btn {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #FFFFFF;
+  background-color: #F9995D;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 20px;
+}
+
+.footer__social-label {
+  margin-bottom: 16px;
+}
+
+.footer__social-icon {
+  width: 100%;
+  max-width: 25px;
+  margin-right: 8px;
+}
+
+.footer__copyright {
+  background-color: #2947A9;
+  padding: 16px 8px;
+}
+
+.footer__copyright-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
 }
 
 .hero {
