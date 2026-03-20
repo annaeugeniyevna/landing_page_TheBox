@@ -76,3 +76,27 @@
 .btn-next-arrow {
     transform: rotate(180deg);
 }
+
+@media (min-width: $tablet) {
+    .hero {
+        height: 418px;
+    }
+    .hero__content {
+        position: relative;
+    }
+
+    .hero__title {
+        font-size: 50px;
+
+        width: 100%;
+        max-width: 370px;
+
+        padding-top: 124px;
+    }
+
+    .hero__slider {
+        position: absolute;
+        right: 0;
+        bottom: -42px;
+    }
+}
