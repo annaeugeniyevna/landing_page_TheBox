@@ -66,6 +66,13 @@ table {
   margin: 0 auto;
 }
 
+@media (min-width: 704px) {
+  .container {
+    max-width: 704px;
+    padding: 0 32px;
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -167,6 +174,48 @@ table {
   font-size: 15px;
   color: #F9995D;
   text-decoration: none;
+}
+
+@media (min-width: 704px) {
+  .nav__bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .burger {
+    display: none;
+  }
+  .nav__menu {
+    position: static;
+    visibility: visible;
+    -webkit-transform: none;
+            transform: none;
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    padding: 0;
+  }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 24px;
+  }
+  .nav__item {
+    margin-bottom: 0;
+  }
 }
 
 .footer {
@@ -539,7 +588,7 @@ table {
           box-shadow: 0 12px 16px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
   border-radius: 3px;
   padding: 16px 0 24px 24px;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
 .experience__card:last-child {
