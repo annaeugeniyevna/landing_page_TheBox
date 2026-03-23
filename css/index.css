@@ -903,6 +903,24 @@ table {
   padding: 12px 20px;
 }
 
+@media (min-width: 704px) {
+  .consulation {
+    height: 400px;
+  }
+  .consulation__title {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+  .consulation__text,
+  .consulation__phone {
+    font-size: 22px;
+  }
+  .consulation__btn {
+    font-size: 18px;
+    padding: 16px 24px;
+  }
+}
+
 .projects {
   padding: 40px 0;
 }
