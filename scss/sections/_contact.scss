@@ -34,7 +34,7 @@
 .contact__input,
 .contact__select {
     width: 100%;
-    max-width: 250px;
+    min-width: 250px;
 
     border: 1px solid $color-neurtal-100;
     border-radius: 3px;
@@ -119,4 +119,76 @@
     display: block;
     padding: 14px 64px;
     margin: 0 auto;
+}
+
+@media (min-width: $tablet) {
+    .contact__content {
+        width: 100%;
+        max-width: 600px;
+
+        text-align: center;
+    }
+
+    .contact__title {
+        font-size: 36px;
+    }
+
+    .contact__text {
+        width: 100%;
+        max-width: 400px;
+
+        margin: 0 auto;
+    }
+
+    .contact__form {
+        width: 100%;
+        max-width: 530px;
+        margin: 48px auto;
+    }
+
+    .contact__form-row {
+        display: flex;
+        flex-direction: row;
+        gap: 28px;
+
+        margin-bottom: 20px;
+    }
+
+    .contact__input-wrap {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .contact__input::placeholder,
+    .contact__select,
+    .contact__textarea::placeholder,
+    .contact__note  {
+        font-size: 17px;
+    }
+
+    .contact__input {
+        padding: 12px 8px;
+    }
+
+    .contact__select-wrap {
+        &::after {
+            right: 16px;
+        }
+    }
+
+    .contact__textarea {
+        width: 100%;
+        max-width: 530px;
+    }
+
+    .contact__note {
+        text-align: left;
+    }
+
+    .contact__btn {
+        font-size: 18px;
+
+        padding: 16px 100px;
+    }
 }

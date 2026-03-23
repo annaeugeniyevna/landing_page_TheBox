@@ -70,6 +70,7 @@ table {
   .container {
     max-width: 704px;
     padding: 0 32px;
+    margin: 0 auto;
   }
 }
 
@@ -1090,7 +1091,7 @@ table {
 .contact__input,
 .contact__select {
   width: 100%;
-  max-width: 250px;
+  min-width: 250px;
   border: 1px solid #E0E3EB;
   border-radius: 3px;
   padding: 8px;
@@ -1203,4 +1204,86 @@ table {
   display: block;
   padding: 14px 64px;
   margin: 0 auto;
+}
+
+@media (min-width: 704px) {
+  .contact__content {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  .contact__title {
+    font-size: 36px;
+  }
+  .contact__text {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .contact__form {
+    width: 100%;
+    max-width: 530px;
+    margin: 48px auto;
+  }
+  .contact__form-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 28px;
+    margin-bottom: 20px;
+  }
+  .contact__input-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 4px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact__input::-webkit-input-placeholder,
+  .contact__select,
+  .contact__textarea::-webkit-input-placeholder,
+  .contact__note {
+    font-size: 17px;
+  }
+  .contact__input:-ms-input-placeholder,
+  .contact__select,
+  .contact__textarea:-ms-input-placeholder,
+  .contact__note {
+    font-size: 17px;
+  }
+  .contact__input::-ms-input-placeholder,
+  .contact__select,
+  .contact__textarea::-ms-input-placeholder,
+  .contact__note {
+    font-size: 17px;
+  }
+  .contact__input::placeholder,
+  .contact__select,
+  .contact__textarea::placeholder,
+  .contact__note {
+    font-size: 17px;
+  }
+  .contact__input {
+    padding: 12px 8px;
+  }
+  .contact__select-wrap::after {
+    right: 16px;
+  }
+  .contact__textarea {
+    width: 100%;
+    max-width: 530px;
+  }
+  .contact__note {
+    text-align: left;
+  }
+  .contact__btn {
+    font-size: 18px;
+    padding: 16px 100px;
+  }
 }

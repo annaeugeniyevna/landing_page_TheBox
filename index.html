@@ -263,37 +263,39 @@
         </section>
         <section class="contact">
             <div class="container">
-                <h2 class="contact__title">What can us do for you?</h2>
-                <p class="contact__text">We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
-                <form class="contact__form">
-                    <div class="contact__form-row">
-                        <div class="contact__input-wrap">
-                            <input type="text" name="username" placeholder="Your name" class="contact__input">
-                            <span class="contact__input-required">*</span>
+                <div class="contact__content">
+                    <h2 class="contact__title">What can us do for you?</h2>
+                    <p class="contact__text">We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
+                    <form class="contact__form">
+                        <div class="contact__form-row">
+                            <div class="contact__input-wrap">
+                                <input type="text" name="username" placeholder="Your name" class="contact__input">
+                                <span class="contact__input-required">*</span>
+                            </div>
+                            <div class="contact__input-wrap">
+                                <input type="email" name="email" placeholder="Email" class="contact__input">
+                                <span class="contact__input-required">*</span>
+                            </div>
                         </div>
-                        <div class="contact__input-wrap">
-                            <input type="email" name="email" placeholder="Email" class="contact__input">
-                            <span class="contact__input-required">*</span>
+                        <div class="contact__form-row">
+                            <div class="contact__select-wrap">
+                                <select class="contact__select" name="reason">
+                                    <option value="" disabled selected>Reason for Contracting</option>
+                                    <option value="commercial">Commercial</option>
+                                    <option value="residential">Residential</option>
+                                </select>
+                                <span class="contact__input-required">*</span>
+                            </div>
+                            <input type="tel" name="phone" placeholder="Phone" class="contact__input">
                         </div>
-                    </div>
-                    <div class="contact__form-row">
-                        <div class="contact__select-wrap">
-                            <select class="contact__select" name="reason">
-                                <option value="" disabled selected>Reason for Contracting</option>
-                                <option value="commercial">Commercial</option>
-                                <option value="residential">Residential</option>
-                            </select>
-                            <span class="contact__input-required">*</span>
-                        </div>
-                        <input type="tel" name="phone" placeholder="Phone" class="contact__input">
-                    </div>
-                    <textarea class="contact__textarea" name="message" placeholder="Message"></textarea>
-                    <p class="contact__note">
-                        <span class="contact__note-required">*</span>
-                        indicates a required field
-                    </p>
-                    <button type="submit" class="contact__btn">Submit</button>
-                </form>
+                        <textarea class="contact__textarea" name="message" placeholder="Message"></textarea>
+                        <p class="contact__note">
+                            <span class="contact__note-required">*</span>
+                            indicates a required field
+                        </p>
+                        <button type="submit" class="contact__btn">Submit</button>
+                    </form>
+                </div>
             </div>
         </section>
         <footer class="footer">
