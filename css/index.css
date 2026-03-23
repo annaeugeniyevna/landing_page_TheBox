@@ -1018,6 +1018,41 @@ table {
   display: none;
 }
 
+@media (min-width: 704px) {
+  .projects {
+    padding: 60px 0;
+  }
+  .projects__title {
+    font-size: 36px;
+  }
+  .projects__filter-line {
+    width: 3px;
+    height: 24px;
+  }
+  .projects__filter-link {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .projects__filter {
+    margin-bottom: 40px;
+  }
+  .projects__card,
+  .projects__card-image {
+    width: 100%;
+    max-width: 380px;
+  }
+  .projects__card-info {
+    padding: 12px;
+  }
+  .projects__card-title {
+    font-size: 19px;
+    margin-bottom: 12px;
+  }
+  .projects__card-address {
+    font-size: 17px;
+  }
+}
+
 .contact {
   background-color: #F6F8F7;
   padding: 40px 0;
