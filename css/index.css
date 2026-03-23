@@ -494,6 +494,26 @@ table {
   margin-bottom: 20px;
 }
 
+@media (min-width: 704px) {
+  .reputation__title {
+    font-size: 36px;
+  }
+  .reputation__card {
+    max-width: 290px;
+    padding: 20px;
+  }
+  .reputation__icon {
+    max-width: 40px;
+  }
+  .reputation__card-title {
+    font-size: 20px;
+  }
+  .reputation__card-text {
+    font-size: 16px;
+    max-width: 250px;
+  }
+}
+
 .about {
   margin-bottom: 52px;
 }
