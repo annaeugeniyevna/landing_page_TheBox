@@ -341,6 +341,54 @@ table {
   color: #FFFFFF;
 }
 
+@media (min-width: 704px) {
+  .footer__contact-label,
+  .footer__newsletter-label,
+  .footer__social-label {
+    font-size: 19px;
+  }
+  .footer__contact-address,
+  .footer__contact-link {
+    font-size: 20px;
+  }
+  .footer__newsletter-input {
+    width: 100%;
+    max-width: 280px;
+    padding: 12px 8px;
+  }
+  .footer__newsletter-input::-webkit-input-placeholder {
+    font-size: 18px;
+  }
+  .footer__newsletter-input:-ms-input-placeholder {
+    font-size: 18px;
+  }
+  .footer__newsletter-input::-ms-input-placeholder {
+    font-size: 18px;
+  }
+  .footer__newsletter-input::placeholder {
+    font-size: 18px;
+  }
+  .footer__newsletter-btn {
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 12px 24px;
+  }
+  .footer__social-icon {
+    width: 100%;
+    max-width: 40px;
+    margin-right: 20px;
+  }
+  .footer__row {
+    margin: 84px 0;
+  }
+  .footer__copyright {
+    padding: 28px 12px;
+  }
+  .footer__copyright-text {
+    font-size: 16px;
+  }
+}
+
 .hero {
   background-image: url("../../images/hero.webp");
   background-size: cover;
