@@ -52,3 +52,34 @@
     height: 2px;
     margin: 16px auto;
 }
+
+@media (min-width: $tablet) {
+    .services__title {
+        font-size: 36px;
+    }
+    .services__card-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        justify-items: center;
+    }
+
+    .services__card {
+        min-width: 270px;
+
+        padding: 38px 0;
+    }
+
+    .services__card-icon {
+        max-width: 40px;
+    }
+
+    .services__card
+    .services__card-title {
+        font-size: 20px;
+    }
+
+    .services__card-line {
+        max-width: 60px;
+    }
+}
