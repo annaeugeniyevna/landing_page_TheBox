@@ -375,11 +375,11 @@ table {
   .footer__contact-label,
   .footer__newsletter-label,
   .footer__social-label {
-    font-size: 19px;
+    font-size: 17px;
   }
   .footer__contact-address,
   .footer__contact-link {
-    font-size: 20px;
+    font-size: 19px;
   }
   .footer__newsletter-input {
     width: 100%;
@@ -387,16 +387,16 @@ table {
     padding: 12px 8px;
   }
   .footer__newsletter-input::-webkit-input-placeholder {
-    font-size: 18px;
+    font-size: 17px;
   }
   .footer__newsletter-input:-ms-input-placeholder {
-    font-size: 18px;
+    font-size: 17px;
   }
   .footer__newsletter-input::-ms-input-placeholder {
-    font-size: 18px;
+    font-size: 17px;
   }
   .footer__newsletter-input::placeholder {
-    font-size: 18px;
+    font-size: 17px;
   }
   .footer__newsletter-btn {
     font-size: 17px;
@@ -415,7 +415,39 @@ table {
     padding: 28px 12px;
   }
   .footer__copyright-text {
-    font-size: 16px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 232px;
+  }
+  .footer__contact-item {
+    margin-bottom: 32px;
+  }
+  .footer__newsletter-label {
+    margin-bottom: 20px;
+  }
+  .footer__newsletter-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+  }
+  .footer__newsletter-input {
+    width: 100%;
+    min-width: 280px;
+  }
+  .footer__copyright {
+    padding: 24px 116px;
   }
 }
 

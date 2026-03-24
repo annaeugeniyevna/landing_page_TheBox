@@ -106,12 +106,12 @@
     .footer__contact-label,
     .footer__newsletter-label,
     .footer__social-label {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .footer__contact-address,
     .footer__contact-link {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .footer__newsletter-input {
@@ -121,7 +121,7 @@
     }
 
     .footer__newsletter-input::placeholder {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .footer__newsletter-btn {
@@ -146,6 +146,38 @@
     }
 
     .footer__copyright-text {
-        font-size: 16px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: $desktop) {
+    .footer__row {
+        display: flex;
+        flex-direction: row;
+        gap: 232px;
+    }
+
+    .footer__contact-item {
+        margin-bottom: 32px;
+
+        
+    }
+
+    .footer__newsletter-label {
+        margin-bottom: 20px;
+    }
+
+    .footer__newsletter-form {
+        display: flex;
+        gap: 8px;
+    }
+
+    .footer__newsletter-input {
+        width: 100%;
+        min-width: 280px;
+    }
+
+    .footer__copyright {
+        padding: 24px 116px;
     }
 }
