@@ -83,3 +83,13 @@
         max-width: 60px;
     }
 }
+
+@media (min-width: $desktop) {
+    .services {
+        padding: 44px 0 74px;
+    }
+    .services__card-wrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

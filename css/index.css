@@ -550,6 +550,7 @@ table {
   .btn-prev,
   .btn-next {
     font-size: 16px;
+    cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -833,6 +834,18 @@ table {
   }
   .services__card-line {
     max-width: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .services {
+    padding: 44px 0 74px;
+  }
+  .services__card-wrap {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
 }
 
