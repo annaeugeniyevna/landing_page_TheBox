@@ -7,6 +7,11 @@
         padding: 0 32px;
         margin: 0 auto;
     }
+
+    @media (min-width: $desktop) {
+        max-width: 1166px;
+        padding: 0 84px;
+    }
 }
 
 *,
