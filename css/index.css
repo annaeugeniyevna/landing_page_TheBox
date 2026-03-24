@@ -452,6 +452,7 @@ table {
 }
 
 .hero {
+  position: relative;
   background-image: url("../../images/hero.webp");
   background-size: cover;
   background-position: center;
@@ -466,10 +467,12 @@ table {
   font-size: 43px;
   color: #292E3D;
   line-height: 1.2;
-  padding: 50px 0 132px 0;
+  padding-top: 52px;
 }
 
 .hero__slider {
+  position: absolute;
+  bottom: 0;
   text-align: center;
   background-color: #2947A9;
   max-width: 250px;
@@ -534,10 +537,8 @@ table {
 
 @media (min-width: 704px) {
   .hero {
-    height: 418px;
-  }
-  .hero__content {
     position: relative;
+    height: 418px;
   }
   .hero__title {
     font-size: 50px;
@@ -548,13 +549,11 @@ table {
   .hero__slider {
     position: absolute;
     right: 0;
-    bottom: -42px;
   }
 }
 
 @media (min-width: 1200px) {
   .hero {
-    position: relative;
     height: 600px;
   }
   .hero__title {
@@ -565,8 +564,6 @@ table {
     padding-top: 188px;
   }
   .hero__slider {
-    position: absolute;
-    bottom: 0;
     min-width: 350px;
     padding-top: 20px;
   }

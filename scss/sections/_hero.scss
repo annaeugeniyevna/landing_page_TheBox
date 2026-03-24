@@ -1,4 +1,6 @@
 .hero {
+    position: relative;
+
     background-image: url('../../images/hero.webp');
     background-size: cover;
     background-position: center;
@@ -14,11 +16,13 @@
     font-size: 43px;
     color: $color-neurtal-800;
     line-height: 1.2;
-
-    padding: 50px 0 132px 0;
+    padding-top: 52px;
 }
 
 .hero__slider {
+    position: absolute;
+    bottom: 0;
+
     text-align: center;
     background-color: $primary-color;
 
@@ -80,10 +84,9 @@
 
 @media (min-width: $tablet) {
     .hero {
-        height: 418px;
-    }
-    .hero__content {
         position: relative;
+
+        height: 418px;
     }
 
     .hero__title {
@@ -98,13 +101,11 @@
     .hero__slider {
         position: absolute;
         right: 0;
-        bottom: -42px;
     }
 }
 
 @media (min-width: $desktop) {
     .hero {
-        position: relative;
         height: 600px;
     }
 
@@ -119,8 +120,6 @@
     }
 
     .hero__slider {
-        position: absolute;
-        bottom: 0;
         min-width: 350px;
 
         padding-top: 20px;
