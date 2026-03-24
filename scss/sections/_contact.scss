@@ -192,3 +192,13 @@
         padding: 16px 100px;
     }
 }
+
+@media (min-width: $desktop) {
+    .contact {
+        padding: 60px 0 12px;
+    }
+
+    .contact__content {
+        margin: 0 auto;
+    }
+}
