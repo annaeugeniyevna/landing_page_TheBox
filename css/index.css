@@ -74,10 +74,10 @@ table {
   }
 }
 
-@media (min-width: 1166px) {
+@media (min-width: 1200px) {
   .container {
-    max-width: 1166px;
-    padding: 0 72px;
+    max-width: 1200px;
+    padding: 0 56px;
     margin: 0 auto;
   }
 }
@@ -227,7 +227,7 @@ table {
   }
 }
 
-@media (min-width: 1166px) {
+@media (min-width: 1200px) {
   .nav__logo {
     max-width: 36px;
   }
@@ -520,11 +520,10 @@ table {
   }
 }
 
-@media (min-width: 1166px) {
+@media (min-width: 1200px) {
   .hero {
     position: relative;
     height: 600px;
-    margin-bottom: 64px;
   }
   .hero__title {
     font-size: 70px;
@@ -634,6 +633,28 @@ table {
   .reputation__card-text {
     font-size: 16px;
     max-width: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reputation {
+    margin: 60px 0 84px;
+  }
+  .reputation__title {
+    margin-bottom: 52px;
+  }
+  .reputation__card-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 60px;
   }
 }
 

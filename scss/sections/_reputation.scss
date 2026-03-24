@@ -77,3 +77,20 @@
         max-width: 250px;
     }
 }
+
+@media (min-width: $desktop) {
+    .reputation {
+        margin: 60px 0 84px;
+    }
+
+    .reputation__title {
+        margin-bottom: 52px;
+    }
+    
+    .reputation__card-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 60px;
+    }
+}
