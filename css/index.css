@@ -1308,6 +1308,92 @@ table {
   }
 }
 
+@media (min-width: 1200px) {
+  .projects {
+    margin: 88px 0 136px;
+    padding: 0;
+  }
+  .projects__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 200px;
+  }
+  .projects__grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    overflow: visible;
+    width: 100%;
+    max-width: 745px;
+    margin: 68px 0 32px;
+  }
+  .projects__controls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .projects__btn-prev,
+  .projects__btn-next {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #292E3D;
+    border: none;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 112px;
+  }
+  .projects__dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 16px;
+  }
+  .projects__dot--active,
+  .projects__dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  .projects__dot--active {
+    background-color: #2947A9;
+  }
+  .projects__dot {
+    background-color: #F6F8F7;
+  }
+}
+
 .contact {
   background-color: #F6F8F7;
   padding: 40px 0;
