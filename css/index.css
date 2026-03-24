@@ -1133,7 +1133,7 @@ table {
     height: 400px;
   }
   .consulation__title {
-    font-size: 36px;
+    font-size: 34px;
     margin-bottom: 32px;
   }
   .consulation__text,
@@ -1143,6 +1143,36 @@ table {
   .consulation__btn {
     font-size: 18px;
     padding: 16px 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .consulation {
+    height: 300px;
+    padding: 100px 0;
+    margin: 0;
+  }
+  .consulation__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 160px;
+  }
+  .consulation__text-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+  }
+  .consulation__btn {
+    margin-top: -36px;
   }
 }
 
