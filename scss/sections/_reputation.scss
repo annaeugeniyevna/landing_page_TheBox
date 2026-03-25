@@ -1,5 +1,5 @@
 .reputation {
-    margin-bottom: 68px;
+    margin-bottom: $space-17;
 }
 
 .reputation__title {
@@ -9,7 +9,7 @@
     color: $color-neurtal-800;
     text-align: center;
 
-    margin-bottom: 40px;
+    margin-bottom: $space-10;
 }
 
 .reputation__card-wrap {
@@ -23,13 +23,13 @@
     border-radius: 2px;
     max-width: 230px;
 
-    padding: 16px;
+    padding: $space-4;
 }
 
 .reputation__icon {
     max-width: 33px;
 
-    margin-bottom: 16px;
+    margin-bottom: $space-4;
 }
 
 .reputation__card-title {
@@ -38,7 +38,7 @@
     font-size: 16px;
     color: $color-neurtal-700;
 
-    margin-bottom: 16px;
+    margin-bottom: $space-4;
 }
 
 .reputation__card-text {
@@ -50,7 +50,7 @@
 
     max-width: 190px;
 
-    margin-bottom: 20px;
+    margin-bottom: $space-5;
 }
 
 @media (min-width: $tablet) {
@@ -61,7 +61,7 @@
     .reputation__card {
         max-width: 290px;
 
-        padding: 20px;
+        padding: $space-5;
     }
 
     .reputation__icon {
@@ -80,11 +80,11 @@
 
 @media (min-width: $desktop) {
     .reputation {
-        margin: 60px 0 84px;
+        margin: $space-15 0 $space-20;
     }
 
     .reputation__title {
-        margin-bottom: 52px;
+        margin-bottom: $space-13;
     }
     
     .reputation__card-wrap {
