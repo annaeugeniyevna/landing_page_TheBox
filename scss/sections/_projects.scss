@@ -1,5 +1,5 @@
 .projects {
-    padding: 40px 0;
+    padding: $space-10 0;
 }
 
 .projects__title {
@@ -8,15 +8,15 @@
     font-size: 27px;
     color: $color-neurtal-800;
 
-    margin-bottom: 32px;
+    margin-bottom: $space-8;
 }
 
 .projects__filter {
-    margin-bottom: 32px;
+    margin-bottom: $space-8;
 }
 
 .projects__filter-item {
-    margin-bottom: 16px;
+    margin-bottom: $space-4;
 }
 
 .projects__filter-line {
@@ -67,7 +67,7 @@
 }
 
 .projects__card-info {
-    padding: 8px;
+    padding: $space-2;
 }
 
 .projects__card-title {
@@ -76,7 +76,7 @@
     font-size: 14px;
     color: $color-white;
 
-    margin-bottom: 8px;
+    margin-bottom: $space-2;
 }
 
 .projects__card-address {
@@ -92,7 +92,7 @@
 
 @media (min-width: $tablet) {
     .projects {
-        padding: 60px 0;
+        padding: $space-15 0;
     }
     
     .projects__title {
@@ -107,11 +107,11 @@
     .projects__filter-link {
         font-size: 24px;
 
-        margin-bottom: 20px;
+        margin-bottom: $space-5;
     }
 
     .projects__filter {
-        margin-bottom: 40px;
+        margin-bottom: $space-10;
     }
 
     .projects__card,
@@ -121,13 +121,13 @@
     }
 
     .projects__card-info {
-        padding: 12px;
+        padding: $space-3;
     }
 
     .projects__card-title {
         font-size: 19px;
 
-        margin-bottom: 12px;
+        margin-bottom: $space-3;
     }
 
     .projects__card-address {
@@ -137,7 +137,7 @@
 
 @media (min-width: $desktop) {
     .projects {
-        margin: 88px 0 136px;
+        margin: $space-21 0 $space-26;
         padding: 0;
     }
     
@@ -155,7 +155,7 @@
         width: 100%;
         max-width: 745px;
 
-        margin: 68px 0 32px;
+        margin: $space-17 0 $space-8;
     }
 
     .projects__controls {
@@ -179,7 +179,7 @@
         justify-content: center;
         align-items: center;
 
-        padding: 20px 112px;
+        padding: $space-5 $space-23;
     }
 
     .projects__dots {
