@@ -1,5 +1,5 @@
 .experience {
-    margin: 52px 0 60px 0;
+    margin: $space-13 0 $space-15 0;
 }
 
 .experience__card {
@@ -11,11 +11,11 @@
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
     border-radius: 3px;
 
-    padding: 16px 0 24px 24px;
-    margin-bottom: 24px;
+    padding: $space-4 0 $space-6 $space-6;
+    margin-bottom: $space-6;
 
     &:last-child {
-        margin-bottom: 52px;
+        margin-bottom: $space-13;
     }
 }
 
@@ -43,7 +43,7 @@
     align-items: center;
     gap: 8px;
 
-    margin-top: 8px;
+    margin-top: $space-2;
 }
 
 .experience__card-line {
@@ -67,7 +67,7 @@
     font-size: 50px;
     color: $primary-color;
 
-    margin-bottom: 28px;
+    margin-bottom: $space-7;
 }
 
 .experience__text {
@@ -77,7 +77,7 @@
     line-height: 1.2;
     color: $color-neurtal-600;
 
-    margin-bottom: 48px;
+    margin-bottom: $space-12;
 }
 
 .experience__btn {
@@ -89,7 +89,7 @@
     border-radius: 2px;
     text-decoration: none;
 
-    padding: 12px 32px;
+    padding: $space-3 $space-8;
 }
 
 @media (min-width: $tablet) {
@@ -106,7 +106,7 @@
         max-width: 290px;
         max-height: 156px;
         
-        padding: 32px;
+        padding: $space-8;
         margin: 0;
     }
     
@@ -187,19 +187,19 @@
     .experience__title {
         font-size: 60px;
 
-        margin-bottom: 40px;
+        margin-bottom: $space-10;
     }
 
     .experience__text {
         font-size: 20px;
 
-        margin-bottom: 56px;
+        margin-bottom: $space-14;
     }
 
     .experience__btn {
         font-size: 17px;
 
-        padding: 16px 40px;
+        padding: $space-4 $space-10;
     }
 }
 
