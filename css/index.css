@@ -521,7 +521,7 @@ table {
       -ms-flex-align: center;
           align-items: center;
   gap: 8px;
-  padding: 4px 38px;
+  padding: 4px 36px;
 }
 
 .btn-prev-arrow,
@@ -752,7 +752,7 @@ table {
     margin-bottom: 28px;
   }
   .about__text:last-of-type {
-    margin-bottom: 74px;
+    margin-bottom: 72px;
   }
   .about__btn {
     font-size: 17px;
@@ -762,7 +762,7 @@ table {
 
 @media (min-width: 1200px) {
   .about {
-    padding: 74px 0 100px;
+    padding: 72px 0 100px;
   }
   .about__wrap {
     display: -webkit-box;
@@ -852,7 +852,7 @@ table {
   }
   .services__card {
     min-width: 270px;
-    padding: 38px 0;
+    padding: 36px 0;
   }
   .services__card-icon {
     max-width: 40px;
@@ -868,7 +868,7 @@ table {
 
 @media (min-width: 1200px) {
   .services {
-    padding: 44px 0 74px;
+    padding: 44px 0 72px;
   }
   .services__card-wrap {
     display: -ms-grid;
@@ -982,7 +982,7 @@ table {
     width: 100%;
     max-width: 290px;
     max-height: 156px;
-    padding: 30px;
+    padding: 32px;
     margin: 0;
   }
   .card:nth-child(1),
@@ -1064,7 +1064,7 @@ table {
   }
   .experience__text {
     font-size: 20px;
-    margin-bottom: 58px;
+    margin-bottom: 56px;
   }
   .experience__btn {
     font-size: 17px;
@@ -1578,7 +1578,7 @@ table {
   background-color: #2947A9;
   border: none;
   display: block;
-  padding: 14px 64px;
+  padding: 16px 64px;
   margin: 0 auto;
 }
 
