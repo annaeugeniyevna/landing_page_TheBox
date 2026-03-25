@@ -1,13 +1,13 @@
 .footer {
-    margin-top: 44px;
+    margin-top: $space-11;
 }
 
 .footer__row {
-    margin-bottom: 44px;
+    margin-bottom: $space-11;
 }
 
 .footer__info {
-    margin-bottom: 40px;
+    margin-bottom: $space-10;
 }
 
 .footer__contact-item {
@@ -15,10 +15,10 @@
     align-items: center;
     gap: 8px;
     
-    margin-bottom: 24px;
+    margin-bottom: $space-6;
 
     &:last-child {
-        margin-bottom: 32px;
+        margin-bottom: $space-8;
     }
 }
 
@@ -41,11 +41,11 @@
 }
 
 .footer__newsletter {
-    margin-bottom: 32px;
+    margin-bottom: $space-8;
 }
 
 .footer__newsletter-label {
-    margin-bottom: 12px;
+    margin-bottom: $space-3;
 }
 
 .footer__newsletter-input {
@@ -55,7 +55,7 @@
     width: 100%;
     max-width: 200px;
 
-    padding: 4px;
+    padding: $space-1;
 }
 
 .footer__newsletter-input::placeholder {
@@ -75,24 +75,24 @@
     border: none;
     border-radius: 3px;
 
-    padding: 8px 20px;
+    padding: $space-2 $space-5;
 }
 
 .footer__social-label {
-    margin-bottom: 16px;
+    margin-bottom: $space-4;
 }
 
 .footer__social-icon {
     width: 100%;
     max-width: 25px;
 
-    margin-right: 8px;
+    margin-right: $space-2;
 }
 
 .footer__copyright {
     background-color: $primary-color;
 
-    padding: 16px 8px;
+    padding: $space-4 $space-2;
 }
 
 .footer__copyright-text {
@@ -118,7 +118,7 @@
         width: 100%;
         max-width: 280px;
 
-        padding: 12px 8px;
+        padding: $space-3 $space-2;
     }
 
     .footer__newsletter-input::placeholder {
@@ -129,21 +129,21 @@
         font-size: 17px;
         border-radius: 5px;
 
-        padding: 12px 24px;
+        padding: $space-3 $space-6;
     }
 
     .footer__social-icon {
         width: 100%;
         max-width: 40px;
-        margin-right: 20px;
+        margin-right: $space-5;
     }
 
     .footer__row {
-        margin: 84px 0;
+        margin: $space-20 0;
     }
 
     .footer__copyright {
-        padding: 28px 12px;
+        padding: $space-7 $space-3;
     }
 
     .footer__copyright-text {
@@ -159,11 +159,11 @@
     }
 
     .footer__contact-item {
-        margin-bottom: 32px;
+        margin-bottom: $space-8;
     }
 
     .footer__newsletter-label {
-        margin-bottom: 20px;
+        margin-bottom: $space-5;
     }
 
     .footer__newsletter-form {
@@ -177,6 +177,6 @@
     }
 
     .footer__copyright {
-        padding: 24px 116px;
+        padding: $space-6 $space-24;
     }
 }
