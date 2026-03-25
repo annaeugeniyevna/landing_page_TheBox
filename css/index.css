@@ -740,7 +740,7 @@ table {
 @media (min-width: 704px) {
   .about__content {
     max-width: 480px;
-    padding: 50px 40px;
+    padding: 52px 40px;
   }
   .about__title {
     font-size: 35px;
