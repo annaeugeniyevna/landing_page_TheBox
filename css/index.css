@@ -1467,7 +1467,7 @@ table {
 .contact__input,
 .contact__select {
   width: 100%;
-  min-width: 250px;
+  max-width: 250px;
   border: 1px solid #E0E3EB;
   border-radius: 3px;
   padding: 8px;
@@ -1598,7 +1598,7 @@ table {
   }
   .contact__form {
     width: 100%;
-    max-width: 530px;
+    max-width: 600px;
     margin: 48px auto;
   }
   .contact__form-row {
@@ -1620,6 +1620,14 @@ table {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact__input,
+  .contact__select {
+    width: 100%;
+    min-width: 280px;
   }
   .contact__input::-webkit-input-placeholder,
   .contact__select,
@@ -1653,7 +1661,7 @@ table {
   }
   .contact__textarea {
     width: 100%;
-    max-width: 530px;
+    max-width: 595px;
   }
   .contact__note {
     text-align: left;

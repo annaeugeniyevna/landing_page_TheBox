@@ -1,7 +1,7 @@
 .contact {
     background-color: $color-neurtal-50;
 
-    padding: 40px 0;
+    padding: $space-10 0;
 }
 
 .contact__title {
@@ -10,7 +10,7 @@
     font-size: 27px;
     color: $color-neurtal-800;
 
-    margin-bottom: 20px;
+    margin-bottom: $space-5;
 }
 
 .contact__text {
@@ -20,7 +20,7 @@
     line-height: 1.2;
     color: $color-neurtal-800;
 
-    margin-bottom: 32px;
+    margin-bottom: $space-8;
 }
 
 .contact__form-row {
@@ -28,18 +28,18 @@
     flex-direction: column;
     gap: 12px;
 
-    margin-bottom: 32px;
+    margin-bottom: $space-8;
 }
 
 .contact__input,
 .contact__select {
     width: 100%;
-    min-width: 250px;
+    max-width: 250px;
 
     border: 1px solid $color-neurtal-100;
     border-radius: 3px;
 
-    padding: 8px;
+    padding: $space-2;
 }
 
 .contact__input::placeholder,
@@ -92,20 +92,20 @@
     border: 1px solid $color-neurtal-100;
     border-radius: 3px;
 
-    padding: 8px;
-    margin-bottom: 8px;
+    padding: $space-2;
+    margin-bottom: $space-2;
 }
 
 .contact__note {
     color: $color-neurtal-500;
 
-    margin-bottom: 28px;
+    margin-bottom: $space-7;
 }
 
 .contact__note-required {
     color: $color-red;
 
-    margin-right: 4px;
+    margin-right: $space-1;
 }
 
 .contact__btn {
@@ -117,7 +117,7 @@
     border: none;
 
     display: block;
-    padding: 16px 64px;
+    padding: $space-4 $space-16;
     margin: 0 auto;
 }
 
@@ -142,8 +142,8 @@
 
     .contact__form {
         width: 100%;
-        max-width: 530px;
-        margin: 48px auto;
+        max-width: 600px;
+        margin: $space-12 auto;
     }
 
     .contact__form-row {
@@ -151,13 +151,20 @@
         flex-direction: row;
         gap: 28px;
 
-        margin-bottom: 20px;
+        margin-bottom: $space-5;
     }
 
     .contact__input-wrap {
         display: flex;
         gap: 4px;
         align-items: center;
+        justify-content: center;
+    }
+
+    .contact__input,
+    .contact__select {
+        width: 100%;
+        min-width: 280px;
     }
 
     .contact__input::placeholder,
@@ -168,7 +175,7 @@
     }
 
     .contact__input {
-        padding: 12px 8px;
+        padding: $space-3 $space-2;
     }
 
     .contact__select-wrap {
@@ -179,7 +186,7 @@
 
     .contact__textarea {
         width: 100%;
-        max-width: 530px;
+        max-width: 595px;
     }
 
     .contact__note {
@@ -189,13 +196,13 @@
     .contact__btn {
         font-size: 18px;
 
-        padding: 16px 100px;
+        padding: $space-4 $space-22;
     }
 }
 
 @media (min-width: $desktop) {
     .contact {
-        padding: 60px 0 12px;
+        padding: $space-15 0 $space-3;
     }
 
     .contact__content {
