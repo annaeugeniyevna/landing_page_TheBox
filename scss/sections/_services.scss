@@ -4,8 +4,7 @@
 }
 
 .services__title {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 700;
+    @include heading;
     font-size: 28px;
     color: $color-neurtal-800;
     text-align: center;
