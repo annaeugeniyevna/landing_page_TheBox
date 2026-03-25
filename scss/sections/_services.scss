@@ -1,6 +1,6 @@
 .services {
     background-color: $color-neurtal-50;
-    padding: 40px 0 32px 0;
+    padding: $space-10 0 $space-8 0;
 }
 
 .services__title {
@@ -10,7 +10,7 @@
     color: $color-neurtal-800;
     text-align: center;
 
-    margin-bottom: 36px;
+    margin-bottom: $space-9;
 }
 
 .services__card {
@@ -19,8 +19,8 @@
     text-align: center;
     max-width: 230px;
     
-    padding: 32px 0;
-    margin-bottom: 40px;
+    padding: $space-8 0;
+    margin-bottom: $space-10;
 
     .services__card-title {
         font-family: 'Work Sans', sans-serif;
@@ -47,10 +47,12 @@
 
 .services__card-line {
     display: block;
+
     background-color: $color-neurtal-100;
     max-width: 50px;
     height: 2px;
-    margin: 16px auto;
+
+    margin: $space-4 auto;
 }
 
 @media (min-width: $tablet) {
@@ -67,7 +69,7 @@
     .services__card {
         min-width: 270px;
 
-        padding: 36px 0;
+        padding: $space-9 0;
     }
 
     .services__card-icon {
@@ -86,7 +88,7 @@
 
 @media (min-width: $desktop) {
     .services {
-        padding: 44px 0 72px;
+        padding: $space-11 0 $space-18;
     }
     .services__card-wrap {
         display: grid;
