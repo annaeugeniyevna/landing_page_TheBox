@@ -1039,7 +1039,8 @@ table {
   }
   .experience__icon--4 {
     position: absolute;
-    bottom: 0;
+    top: auto;
+    bottom: -50px;
     right: -30px;
   }
   .experience__card-number {
