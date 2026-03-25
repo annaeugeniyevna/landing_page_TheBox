@@ -63,6 +63,7 @@
     visibility: hidden;
     transform: translateX(100%);
     transition: transform 0.3s ease;
+    z-index: 2;
 
     padding: $space-6;
 }
