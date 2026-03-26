@@ -1550,6 +1550,14 @@ table {
           box-sizing: border-box;
 }
 
+.visually-hiden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
 .contact__textarea {
   width: 100%;
   max-width: 300px;
